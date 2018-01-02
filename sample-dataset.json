@@ -1,0 +1,723 @@
+{
+    "briefing_id": "5a4c02c2d6b213.81942711",
+    "remarks": [
+        "Default minimum cruise altitude is 10,000 ft MSL",
+        "Alternates are always sorted by distance (asc)",
+        "Alternates within 10nm of origin/destination are not considered valid",
+        "Route altitude constraints will only show the last affected restriction if multiple apply",
+        "Preferred cruise altitude is very rudimentary and is not reliable (yet)",
+        "Only the first 100nm of ETOPS violations are reported"
+    ],
+    "flight": {
+        "airline": "AFR",
+        "number": "1230",
+        "callsign": "AFR1234",
+        "origin": {
+            "id": 2331,
+            "icao": "LFPO",
+            "iata": "ORY",
+            "city": "Paris",
+            "name": "Orly",
+            "latitude": "48.7232806",
+            "longitude": "2.3795778",
+            "elevation": 292,
+            "longest_runway": 11975,
+            "timezone": {
+                "dstOffset": 0,
+                "rawOffset": 3600,
+                "timeZoneId": "Europe/Paris",
+                "timeZoneName": "Central European Standard Time"
+            },
+            "type": {
+                "id": 1,
+                "name": "Civil"
+            },
+            "metrogroup": {
+                "id": 364,
+                "code": "PAR",
+                "name": "Paris"
+            },
+            "country": {
+                "id": 39,
+                "code": "FR",
+                "name": "France"
+            },
+            "SID": [
+                {
+                    "id": 5872,
+                    "name": "AGOPA6P",
+                    "mea": "19500",
+                    "maa": "28500"
+                },
+                {
+                    "id": 5873,
+                    "name": "AGOPA6Q",
+                    "mea": "19500",
+                    "maa": "28500"
+                }
+            ]
+        },
+        "destination": {
+            "id": 2257,
+            "icao": "LFML",
+            "iata": "MRS",
+            "city": "Marseilles",
+            "name": "Provence",
+            "latitude": "43.4366333",
+            "longitude": "5.2151194",
+            "elevation": 75,
+            "longest_runway": 11483,
+            "timezone": {
+                "dstOffset": 0,
+                "rawOffset": 3600,
+                "timeZoneId": "Europe/Paris",
+                "timeZoneName": "Central European Standard Time"
+            },
+            "type": {
+                "id": 1,
+                "name": "Civil"
+            },
+            "metrogroup": {
+                "id": 358,
+                "code": "MRS",
+                "name": "Marseilles"
+            },
+            "country": {
+                "id": 39,
+                "code": "FR",
+                "name": "France"
+            },
+            "STAR": [
+                {
+                    "id": 26189,
+                    "name": "BALSI8B",
+                    "mea": "0",
+                    "maa": "99999"
+                },
+                {
+                    "id": 26190,
+                    "name": "BALSI8C",
+                    "mea": "15000",
+                    "maa": "99999"
+                }
+            ]
+        },
+        "departure": {
+            "utc": "2018-01-02T23:08:02+00:00",
+            "local": "2018-01-03T00:08:02+01:00"
+        },
+        "arrival": {
+            "utc": "2018-01-02T23:35:02+00:00",
+            "local": "2018-01-03T00:35:02+01:00"
+        }
+    },
+    "aircraft": {
+        "id": 2,
+        "name": "Airbus A319-111",
+        "icao": "A319",
+        "engine": "CFM56-5B5",
+        "engine_quantity": 2,
+        "passenger_capacity": 142,
+        "equipment": "SDE1FGHIJ1RWXYZ",
+        "transponder": "LB1",
+        "pbn": "A1B1C1D1L1O1S1",
+        "nav": "RNVD1E2A1",
+        "wake_category": "M",
+        "rvr": "75",
+        "maximum_altitude": 39000,
+        "minimum_landing_length": 5800,
+        "units": "KG",
+        "etops": 180,
+        "weights": {
+            "dow": 41600,
+            "mzfw": 57000,
+            "mtow": 68000,
+            "mrw": 68400,
+            "mlw": 61000
+        },
+        "fuel": {
+            "capacity": 18728,
+            "taxi_burn": 10,
+            "apu_burn": 130
+        },
+        "recognition": {
+            "wingposition": "Low wing",
+            "enginedata": "Underwing mounted",
+            "tailposition": "Regular tail, mid set",
+            "landinggear": "Tricycle retractable"
+        },
+        "dimensions": {
+            "wingspan": "34.1 m",
+            "length": "33.84 m",
+            "height": "11.76 m"
+        },
+        "manufacturer": "AIRBUS",
+        "type": "L2J",
+        "apc": "C",
+        "img": "data:image/gif;base64,imageDataHere",
+        "profile": {
+            "initialup": {
+                "kts": "165",
+                "fpm": "2500"
+            },
+            "climb1": {
+                "kts": "290",
+                "fpm": "2200"
+            },
+            "climb2": {
+                "kts": "290",
+                "fpm": "1500"
+            },
+            "cruise": {
+                "kts": "450",
+                "mach": "0.79"
+            },
+            "initialdown": {
+                "kts": "0.78",
+                "fpm": "1000"
+            },
+            "descent": {
+                "kts": "290",
+                "fpm": "3500"
+            },
+            "approach": {
+                "kts": "230",
+                "fpm": "1500"
+            }
+        },
+        "registration": "N-1234"
+    },
+    "payload": {
+        "passengers": {
+            "total_count": 125,
+            "total_weight": 11015,
+            "manifest": [
+                {
+                    "first_name": "Sharron",
+                    "last_name": "Noon",
+                    "gender": "female",
+                    "dob": "8/17/1993"
+                },
+                {
+                    "first_name": "Patricia",
+                    "last_name": "Parker",
+                    "gender": "female",
+                    "dob": "11/16/1957"
+                }
+            ],
+            "reference": {
+                "male": 92,
+                "female": 77,
+                "child": 34,
+                "infant": 14
+            }
+        },
+        "crew": {
+            "total_count": 5,
+            "pilots": 2,
+            "flightattendants": 3
+        },
+        "weight": 11015
+    },
+    "route": {
+        "origin": "LFPO",
+        "destination": "LFML",
+        "bearing": 159,
+        "route": "LATRA UM133 LERGA",
+        "distance_nav": 342.0390504520743206740007735788822174072265625,
+        "distance_dct": 338.60506116428001632812083698809146881103515625,
+        "waypoints": [
+            {
+                "ident": "LFPO",
+                "name": "Paris Orly",
+                "latitude": "48.7232806",
+                "longitude": "2.3795778",
+                "type": "AIRPORT",
+                "wind_dir": 0,
+                "wind_spd": 0,
+                "windsaloft": {
+                    "11000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0
+                    },
+                    "13000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0
+                    }
+                }
+            },
+            {
+                "ident": "LATRA",
+                "name": "LATRA",
+                "latitude": "48.083333333333336",
+                "longitude": "2.5166666666666666",
+                "type": "DPN",
+                "distance": 38.8093354927460865155808278359472751617431640625,
+                "bearing": 171,
+                "direction": "S",
+                "wind_dir": 0,
+                "wind_spd": 0,
+                "windsaloft": {
+                    "11000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0.08624296776165797651092503883774043060839176177978515625,
+                        "wind_component": 0
+                    },
+                    "13000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0.08624296776165797651092503883774043060839176177978515625,
+                        "wind_component": 0
+                    }
+                }
+            },
+            {
+                "ident": "LERGA",
+                "name": "LERGA",
+                "latitude": "45.25727777777778",
+                "longitude": "3.750166666666667",
+                "type": "DPN",
+                "distance": 177.118097003512929177304613403975963592529296875,
+                "bearing": 163,
+                "direction": "SSE",
+                "wind_dir": 0,
+                "wind_spd": 0,
+                "windsaloft": {
+                    "11000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0.39359577111891763667728127984446473419666290283203125,
+                        "wind_component": 0
+                    },
+                    "13000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0.39359577111891763667728127984446473419666290283203125,
+                        "wind_component": 0
+                    }
+                }
+            },
+            {
+                "ident": "LFML",
+                "name": "Marseilles Provence",
+                "latitude": "43.4366333",
+                "longitude": "5.2151194",
+                "type": "AIRPORT",
+                "bearing": 150,
+                "direction": "SSE",
+                "wind_dir": 0,
+                "wind_spd": 0,
+                "windsaloft": {
+                    "11000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0,
+                        "wind_component": 0
+                    },
+                    "13000": {
+                        "wind_dir": 180,
+                        "wind_spd": 0,
+                        "tmp": -272.1499999999999772626324556767940521240234375,
+                        "ete": 0,
+                        "wind_component": 0
+                    }
+                }
+            }
+        ],
+        "ete": 1.19843260188087530337952557601965963840484619140625,
+        "eta": "2018-01-02T23:35:02+00:00"
+    },
+    "cruise": {
+        "cruise_altitude": 39000,
+        "reference": {
+            "min_altitude": 10000,
+            "min_altitude_cause": "Default",
+            "max_altitude": 39000,
+            "max_altitude_cause": "Aircraft Ceiling"
+        },
+        "cruise_fuelflow": 2014
+    },
+    "flightprofile": [
+        {
+            "phase": "CLIMB",
+            "altitude": 909.0909090909091219145921058952808380126953125,
+            "airspeed": "165",
+            "distance_remaining": 341.0390504520743206740007735788822174072265625,
+            "tte": 0.36363636363636364645657295113778673112392425537109375
+        },
+        {
+            "phase": "CLIMB",
+            "altitude": 1818.181818181818243829184211790561676025390625,
+            "airspeed": "165",
+            "distance_remaining": 340.0390504520743206740007735788822174072265625,
+            "tte": 0.7272727272727272929131459022755734622478485107421875
+        },
+        {
+            "phase": "CLIMB",
+            "altitude": 38599.3730407523908070288598537445068359375,
+            "airspeed": "290",
+            "distance_remaining": 239.0390504520743206740007735788822174072265625,
+            "tte": 22.25078369905961750419010058976709842681884765625
+        },
+        {
+            "phase": "CLIMB",
+            "altitude": 38909.71786833860096521675586700439453125,
+            "airspeed": "290",
+            "distance_remaining": 238.0390504520743206740007735788822174072265625,
+            "tte": 22.457680250783756292776160989888012409210205078125
+        },
+        {
+            "phase": "CRUISE",
+            "altitude": 39220.0626959248111234046518802642822265625,
+            "airspeed": "290",
+            "distance_remaining": 237.0390504520743206740007735788822174072265625,
+            "tte": 22.6645768025078950813622213900089263916015625
+        },
+        {
+            "phase": "CRUISE",
+            "altitude": 39220.0626959248111234046518802642822265625,
+            "airspeed": "450",
+            "distance_remaining": 80.0390504520743206740007735788822174072265625,
+            "tte": 55.147335423197290538155357353389263153076171875
+        },
+        {
+            "phase": "TOD",
+            "altitude": 39220.0626959248111234046518802642822265625,
+            "airspeed": "450",
+            "distance_remaining": 79.0390504520743206740007735788822174072265625,
+            "tte": 55.35423197492142577402773895300924777984619140625
+        },
+        {
+            "phase": "DESCENT",
+            "altitude": 38495.924764890325604937970638275146484375,
+            "airspeed": "290",
+            "distance_remaining": 78.0390504520743206740007735788822174072265625,
+            "tte": 55.5611285266455610099001205526292324066162109375
+        },
+        {
+            "phase": "DESCENT",
+            "altitude": 37771.7868338558400864712893962860107421875,
+            "airspeed": "290",
+            "distance_remaining": 77.0390504520743206740007735788822174072265625,
+            "tte": 55.76802507836969624577250215224921703338623046875
+        },
+        {
+            "phase": "DESCENT",
+            "altitude": 10254.5454545455068000592291355133056640625,
+            "airspeed": "290",
+            "distance_remaining": 39.0390504520743206740007735788822174072265625,
+            "tte": 63.63009404388683520892300293780863285064697265625
+        },
+        {
+            "phase": "APPROACH",
+            "altitude": 9530.40752351102491957135498523712158203125,
+            "airspeed": "290",
+            "distance_remaining": 38.0390504520743206740007735788822174072265625,
+            "tte": 63.8369905956109704447953845374286174774169921875
+        },
+        {
+            "phase": "APPROACH",
+            "altitude": 9530.40752351102491957135498523712158203125,
+            "airspeed": "290",
+            "distance_remaining": 37.0390504520743206740007735788822174072265625,
+            "tte": 64.0438871473351127860951237380504608154296875
+        },
+        {
+            "phase": "APPROACH",
+            "altitude": 9530.40752351102491957135498523712158203125,
+            "airspeed": "290",
+            "distance_remaining": 36.0390504520743206740007735788822174072265625,
+            "tte": 64.2507836990592551273948629386723041534423828125
+        }
+    ],
+    "alternates": {
+        "arrival": [
+            {
+                "id": 2266,
+                "icao": "LFMV",
+                "iata": "AVN",
+                "city": "Avignon",
+                "name": "Caumont",
+                "latitude": "43.9065806",
+                "longitude": "4.9020278",
+                "elevation": 125,
+                "longest_runway": 6168,
+                "timezone": {
+                    "dstOffset": 0,
+                    "rawOffset": 3600,
+                    "timeZoneId": "Europe/Paris",
+                    "timeZoneName": "Central European Standard Time"
+                },
+                "type": {
+                    "id": 1,
+                    "name": "Civil"
+                },
+                "metrogroup": {
+                    "id": 363,
+                    "code": "AVN",
+                    "name": "Avignon"
+                },
+                "country": {
+                    "id": 39,
+                    "code": "FR",
+                    "name": "France"
+                },
+                "distance_from_dest": 31.3210189662379576702733174897730350494384765625,
+                "bearing_from_dest": 334
+            },
+            {
+                "id": 2419,
+                "icao": "LFTW",
+                "iata": "FNI",
+                "city": "Nîmes",
+                "name": "Garons",
+                "latitude": "43.7574278",
+                "longitude": "4.4163444",
+                "elevation": 308,
+                "longest_runway": 8015,
+                "timezone": {
+                    "dstOffset": 0,
+                    "rawOffset": 3600,
+                    "timeZoneId": "Europe/Paris",
+                    "timeZoneName": "Central European Standard Time"
+                },
+                "type": {
+                    "id": 1,
+                    "name": "Civil"
+                },
+                "metrogroup": {
+                    "id": 381,
+                    "code": "FNI",
+                    "name": "Nîmes"
+                },
+                "country": {
+                    "id": 39,
+                    "code": "FR",
+                    "name": "France"
+                },
+                "distance_from_dest": 39.714911636962398233663407154381275177001953125,
+                "bearing_from_dest": 299
+            }
+        ],
+        "enroute": {
+            "airports": {
+                "LFLX": {
+                    "id": 2246,
+                    "icao": "LFLX",
+                    "iata": "CHR",
+                    "city": "Châteauroux",
+                    "name": "Déols Marcel Dassault",
+                    "latitude": "46.8603139",
+                    "longitude": "1.7211250",
+                    "elevation": 528,
+                    "longest_runway": 11483,
+                    "timezone": {
+                        "dstOffset": 0,
+                        "rawOffset": 3600,
+                        "timeZoneId": "Europe/Paris",
+                        "timeZoneName": "Central European Standard Time"
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Civil"
+                    },
+                    "metrogroup": {
+                        "id": 356,
+                        "code": "CHR",
+                        "name": "Châteauroux"
+                    },
+                    "country": {
+                        "id": 39,
+                        "code": "FR",
+                        "name": "France"
+                    },
+                    "farthest_distance": 75.335508663597551048951572738587856292724609375,
+                    "farthest_flighttime": 0.167412241474661216411590203279047273099422454833984375
+                },
+                "LFPB": {
+                    "id": 2319,
+                    "icao": "LFPB",
+                    "iata": "LBG",
+                    "city": "Paris",
+                    "name": "Le Bourget",
+                    "latitude": "48.9695250",
+                    "longitude": "2.4414917",
+                    "elevation": 217,
+                    "longest_runway": 9843,
+                    "timezone": {
+                        "dstOffset": 0,
+                        "rawOffset": 3600,
+                        "timeZoneId": "Europe/Paris",
+                        "timeZoneName": "Central European Standard Time"
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Civil"
+                    },
+                    "metrogroup": {
+                        "id": 364,
+                        "code": "PAR",
+                        "name": "Paris"
+                    },
+                    "country": {
+                        "id": 39,
+                        "code": "FR",
+                        "name": "France"
+                    },
+                    "farthest_distance": 71.3965447902615579778284882195293903350830078125,
+                    "farthest_flighttime": 0.15865898842280345970578991909860633313655853271484375
+                }
+            },
+            "etopsrisk": [
+                {
+                    "latitude": "90",
+                    "longitude": "-121"
+                },
+                {
+                    "latitude": "90",
+                    "longitude": "-121"
+                }
+            ]
+        },
+        "departure": [
+            {
+                "id": 2319,
+                "icao": "LFPB",
+                "iata": "LBG",
+                "city": "Paris",
+                "name": "Le Bourget",
+                "latitude": "48.9695250",
+                "longitude": "2.4414917",
+                "elevation": 217,
+                "longest_runway": 9843,
+                "timezone": {
+                    "dstOffset": 0,
+                    "rawOffset": 3600,
+                    "timeZoneId": "Europe/Paris",
+                    "timeZoneName": "Central European Standard Time"
+                },
+                "type": {
+                    "id": 1,
+                    "name": "Civil"
+                },
+                "metrogroup": {
+                    "id": 364,
+                    "code": "PAR",
+                    "name": "Paris"
+                },
+                "country": {
+                    "id": 39,
+                    "code": "FR",
+                    "name": "France"
+                },
+                "distance_from_origin": 14.9856500208372693805358721874654293060302734375,
+                "bearing_from_origin": 9,
+                "time_from_origin": 0.05994260008334907630089816166218952275812625885009765625,
+                "fuel_required": 120.7243965678650425843443372286856174468994140625,
+                "fuel_dump_required": 0
+            },
+            {
+                "id": 2324,
+                "icao": "LFPG",
+                "iata": "CDG",
+                "city": "Paris",
+                "name": "Charles de Gaulle",
+                "latitude": "49.0097472",
+                "longitude": "2.5478194",
+                "elevation": 390,
+                "longest_runway": 13829,
+                "timezone": {
+                    "dstOffset": 0,
+                    "rawOffset": 3600,
+                    "timeZoneId": "Europe/Paris",
+                    "timeZoneName": "Central European Standard Time"
+                },
+                "type": {
+                    "id": 1,
+                    "name": "Civil"
+                },
+                "metrogroup": {
+                    "id": 364,
+                    "code": "PAR",
+                    "name": "Paris"
+                },
+                "country": {
+                    "id": 39,
+                    "code": "FR",
+                    "name": "France"
+                },
+                "distance_from_origin": 18.438514235991693368532651220448315143585205078125,
+                "bearing_from_origin": 21,
+                "time_from_origin": 0.0737540569439667781370673083074507303535938262939453125,
+                "fuel_required": 148.540670685149081009512883611023426055908203125,
+                "fuel_dump_required": 0
+            }
+        ]
+    },
+    "fuel": {
+        "reserve": {
+            "weight": 1007,
+            "endurance": 0.5
+        },
+        "alternate": {
+            "weight": 504.64425758402597921303822658956050872802734375,
+            "endurance": 0.25056815172990365425675918231718242168426513671875
+        },
+        "additional": {
+            "weight": 0,
+            "endurance": 0
+        },
+        "extra": {
+            "weight": 0,
+            "endurance": 0
+        },
+        "contingency": {
+            "weight": 451.200000000000045474735088646411895751953125,
+            "endurance": 0.2240317775571003255929980468863504938781261444091796875
+        },
+        "taxi": {
+            "weight": 200,
+            "endurance": 0.09930486593843097786749041233633761294186115264892578125
+        },
+        "trip": {
+            "weight": 855.62116593132532216259278357028961181640625,
+            "endurance": 1.19843260188087530337952557601965963840484619140625
+        },
+        "min_takeoff": {
+            "weight": 2818.4654235153511763201095163822174072265625,
+            "endurance": 2.17303253116787953302946334588341414928436279296875
+        },
+        "release": {
+            "weight": 3018.4654235153511763201095163822174072265625,
+            "endurance": 2.272337397106310330485712256631813943386077880859375
+        },
+        "remaining": {
+            "weight": 2162.84425758402585415751673281192779541015625,
+            "endurance": 1.073904795225435027106186680612154304981231689453125
+        }
+    },
+    "weights": {
+        "dow": 41600,
+        "payload": 11015,
+        "zfw": 52615,
+        "ramp": 55633.4654235153502668254077434539794921875,
+        "takeoff": 55433.4654235153502668254077434539794921875,
+        "landing": 54577.8442575840235804207623004913330078125
+    },
+    "warnings": [
+        {
+            "type": "critical",
+            "message": "Route Validation Error: [ROUTE179] CRUISING FLIGHT LEVEL INVALID OR INCOMPATIBLE WITH AIRCRAFT PERFORMANCE"
+        }
+    ]
+}
