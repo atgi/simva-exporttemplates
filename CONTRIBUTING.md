@@ -29,5 +29,5 @@ $ git commit -m "A brief summary of the commit
 
 ### Submitting a pull request
 * Do not include issue numbers in the PR title, but DO include them in the description
-* Ensure that any new templates following the (folder)[https://github.com/atgi/simva-exporttemplates/wiki/1.-Folder-Structure] and (file)[https://github.com/atgi/simva-exporttemplates/wiki/2.-File-Naming] naming conventions
-* Ensure that any templates modified contain the required (metadata keys][https://github.com/atgi/simva-exporttemplates/wiki/4.-File-Structure#required-metadata-keys]
+* Ensure that any new templates following the [folder](https://github.com/atgi/simva-exporttemplates/wiki/1.-Folder-Structure) and [file](https://github.com/atgi/simva-exporttemplates/wiki/2.-File-Naming)] naming conventions
+* Ensure that any templates modified contain the required [metadata keys](https://github.com/atgi/simva-exporttemplates/wiki/4.-File-Structure#required-metadata-keys)
