@@ -1,2 +1,3 @@
-# simva-ofptemplates
-OFP Templates for simVA
+# Flight Plan Export File Templates
+
+
