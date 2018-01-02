@@ -9,3 +9,4 @@ I {{! Indicates which OS built the file, I=PC,A=MAC - has no impact }}
 {{#route.waypoints}}
 1 {{ ident }} {{ cruise.cruise_altitude }} {{ latitude }} {{longitude }}
 {{/route.waypoints}}
+
